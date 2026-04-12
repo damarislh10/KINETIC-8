@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo corporativo · KINETIC</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="index.html">KINETIC</a>
+        <nav class="site-nav" aria-label="Principal">
+          <a class="site-nav__link" href="index.html">Inicio</a>
+          <a class="site-nav__link site-nav__link--active" href="catalogo.html">Servicios</a>
+          <a class="site-nav__link" href="catalogo.html?filter=favorites">Favoritos</a>
+          <a class="site-nav__link" href="index.html#contacto">Contacto</a>
+          <a class="site-nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+        <div class="site-header__actions">
+          <label class="sr-only" for="cat-search">Buscar</label>
+          <input
+            id="cat-search"
+            class="search-field"
+            type="search"
+            placeholder="Buscar..."
+            autocomplete="off"
+          />
+          <a class="btn btn--primary btn--pill" href="admin.html">Acceso Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container section">
+      <header class="catalog-hero">
+        <p class="catalog-hero__kicker">Catálogo corporativo</p>
+        <h1 class="catalog-hero__title">Impulsa tu <span>Energía Corporativa</span></h1>
+        <p class="catalog-hero__lead">
+          Descubre soluciones de alto impacto diseñadas para escalar la operatividad y la visión de
+          tu empresa con el sello de excelencia KINETIC.
+        </p>
+      </header>
+
+      <div class="filter-bar">
+        <div class="filter-pills" role="toolbar" aria-label="Filtrar por categoría">
+          <button type="button" class="filter-pill filter-pill--active" data-filter-cat="todos">
+            Todos
+          </button>
+          <button type="button" class="filter-pill" data-filter-cat="consultoria">Consultoría</button>
+          <button type="button" class="filter-pill" data-filter-cat="tecnologia">Tecnología</button>
+          <button type="button" class="filter-pill" data-filter-cat="logistica">Logística</button>
+          <button type="button" class="filter-pill" data-filter-cat="energia">Energía</button>
+          <button type="button" class="filter-pill" data-filter-favorites>Favoritos</button>
+        </div>
+        <button type="button" class="filter-extra">
+          <span>Filtrar</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M3 6h18v2H3V6zm4 5h10v2H7v-2zm4 5h2v2h-2v-2z" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="grid-services" id="catalog-grid" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <div class="site-footer__brand">KINETIC</div>
+          <p class="site-footer__copy">© 2026 KINETIC CORPORATE. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+        <nav class="site-footer__links" aria-label="Legal">
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+          <a href="index.html#contacto">Soporte</a>
+          <a href="#">Cookies</a>
+        </nav>
+        <div class="site-footer__icons">
+          <span class="icon-btn" title="Global" aria-hidden="true">🌐</span>
+          <a class="icon-btn" href="mailto:soporte@kinetic.com" aria-label="Correo">✉</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/catalog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+/* Contenedores y secciones reutilizables */
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section--tight {
+  padding: 2.5rem 0;
+}
+
+.page-bg--radial {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at center, #ffffff 0%, #eef2f7 100%);
+}

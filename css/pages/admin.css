@@ -1,0 +1,113 @@
+.admin-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem 6rem;
+}
+
+.admin-brand {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--color-navy);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 0.75rem;
+}
+
+.admin-kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-orange);
+}
+
+.admin-title {
+  margin: 0 0 2rem;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 800;
+  color: var(--color-navy);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.login-card__accent {
+  height: 4px;
+  background: var(--gradient-brand);
+}
+
+.login-card__body {
+  padding: 2rem 2rem 1.75rem;
+}
+
+.login-card__divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+  color: var(--color-muted);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.login-card__divider::before,
+.login-card__divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.login-card__footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.login-card__footer-links a {
+  color: var(--color-muted);
+}
+
+.login-card__footer-links a:hover {
+  color: var(--color-orange);
+}
+
+.admin-support {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+.admin-support strong {
+  color: var(--color-orange);
+  cursor: pointer;
+}
+
+.admin-support strong:hover {
+  text-decoration: underline;
+}

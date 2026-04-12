@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle de servicio · KINETIC</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="index.html">KINETIC</a>
+        <nav class="site-nav" aria-label="Principal">
+          <a class="site-nav__link" href="index.html">Inicio</a>
+          <a class="site-nav__link site-nav__link--active" href="catalogo.html">Servicios</a>
+          <a class="site-nav__link" href="catalogo.html?filter=favorites">Favoritos</a>
+          <a class="site-nav__link" href="index.html#contacto">Contacto</a>
+          <a class="site-nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+        <div class="site-header__actions">
+          <input class="search-field" type="search" placeholder="Buscar..." aria-label="Buscar" />
+          <a class="btn btn--primary btn--pill" href="admin.html">Acceso Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="detail-main">
+      <div class="container">
+        <p class="breadcrumbs" id="detail-breadcrumb">
+          <a href="index.html">Inicio</a><span>›</span><a href="catalogo.html">Servicios</a
+          ><span>›</span><span id="detail-bc-title">Servicio</span>
+        </p>
+
+        <section class="detail-hero">
+          <div class="detail-hero__grid">
+            <div>
+              <span class="badge-pill" id="detail-badge">SOLUCIONES ENTERPRISE</span>
+              <h1 class="detail-hero__title" id="detail-hero-title">Cargando…</h1>
+              <p class="detail-hero__desc" id="detail-hero-desc"></p>
+            </div>
+            <div class="detail-visual detail-visual--cyan" id="detail-visual" aria-hidden="true">
+              <div class="detail-visual__glow"></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="detail-layout">
+          <div>
+            <article class="content-card">
+              <h2>Visión general del servicio</h2>
+              <p id="detail-overview"></p>
+            </article>
+            <div class="cap-grid">
+              <h3 class="cap-grid__title">Capacidades técnicas</h3>
+              <div class="cap-grid__items" id="detail-capabilities"></div>
+            </div>
+          </div>
+          <aside>
+            <div class="sidebar-card">
+              <p>Agenda una sesión con un consultor senior para aterrizar alcance, plazos y ROI.</p>
+              <button type="button" class="btn btn--primary btn--block btn--lg" id="detail-contact-consult">
+                Contactar consultor →
+              </button>
+              <button type="button" class="btn btn--outline btn--block btn--lg" id="detail-fav-btn">
+                <span aria-hidden="true">♡</span> Añadir a Favoritos
+              </button>
+              <ul class="checklist">
+                <li>SLA medible y reportes claros</li>
+                <li>Soporte durante el despliegue</li>
+                <li>Auditorías de seguridad opcionales</li>
+              </ul>
+            </div>
+            <div class="promo-card">
+              <h3>Caso de éxito</h3>
+              <p>Descarga el whitepaper sobre optimización operativa en entornos regulados.</p>
+              <a href="#">Leer más</a>
+            </div>
+          </aside>
+        </div>
+
+        <section class="testimonial-dark">
+          <div class="testimonial-dark__quote">“</div>
+          <p>
+            La implementación de la optimización de flujos de KINETIC fue el punto de inflexión para
+            nuestra operación logística global.
+          </p>
+          <div class="testimonial-dark__author">
+            <div class="testimonial-dark__avatar">AV</div>
+            <div>
+              <strong>Alejandro Vivas</strong><br />
+              <small style="opacity: 0.85">CTO, Global Logistics Group</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-card" style="margin-top: 2rem">
+          <h2>Contacto rápido (validación demo)</h2>
+          <form id="detail-quick-contact" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="dq-email">Correo</label>
+              <input class="input" id="dq-email" name="email" type="email" required />
+              <span class="form-error" data-error="email"></span>
+            </div>
+            <button class="btn btn--secondary" type="submit">Solicitar información</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <div class="site-footer__brand">KINETIC</div>
+          <p class="site-footer__copy">© 2026 KINETIC CORPORATE. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+        <nav class="site-footer__links">
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+          <a href="index.html#contacto">Soporte</a>
+          <a href="#">Cookies</a>
+        </nav>
+        <div class="site-footer__icons">
+          <span class="icon-btn" aria-hidden="true">🌐</span>
+          <span class="icon-btn" aria-hidden="true">✉</span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/detail.js"></script>
+  </body>
+</html>

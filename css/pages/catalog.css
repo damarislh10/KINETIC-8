@@ -1,0 +1,102 @@
+.catalog-hero {
+  padding: 2.5rem 0 1.5rem;
+}
+
+.catalog-hero__kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+
+.catalog-hero__title {
+  margin: 0 0 1rem;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 800;
+  color: var(--color-navy);
+}
+
+.catalog-hero__title span {
+  color: var(--color-accent);
+}
+
+.catalog-hero__lead {
+  margin: 0;
+  max-width: 640px;
+  color: var(--color-muted);
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-pill {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--color-input-bg-alt);
+  color: var(--color-navy);
+  transition: background var(--transition), color var(--transition);
+}
+
+.filter-pill:hover {
+  background: #dde8f5;
+}
+
+.filter-pill--active {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+.filter-pill--active:hover {
+  background: #b8351f;
+}
+
+.filter-extra {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  background: none;
+  border: none;
+}
+
+.filter-extra:hover {
+  color: var(--color-accent);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--color-muted);
+}
+
+.breadcrumbs {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+  margin: 0.5rem 0 1.5rem;
+}
+
+.breadcrumbs span {
+  margin: 0 0.35rem;
+  color: var(--color-muted-light);
+}

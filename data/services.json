@@ -1,0 +1,252 @@
+{
+  "services": [
+    {
+      "id": "opt-flujos",
+      "category": "Consultoría",
+      "categoryKey": "consultoria",
+      "title": "Optimización de Flujos",
+      "shortDescription": "Reingeniería de flujos operativos para maximizar la eficiencia y reducir cuellos de botella en procesos críticos.",
+      "description": "Diseñamos arquitecturas cloud de alto rendimiento y pipelines seguros que escalan con tu negocio. Combinamos análisis de procesos, automatización y métricas en tiempo real para que cada decisión esté respaldada por datos.",
+      "badge": "SOLUCIONES ENTERPRISE",
+      "heroTitlePrefix": "Optimización de",
+      "heroTitleHighlight": "Flujos",
+      "heroTitleSuffix": " Dinámicos",
+      "imageVariant": "cyan",
+      "capabilities": [
+        {
+          "title": "Latencia de Red Ultra-Baja",
+          "description": "Topologías y CDN para respuesta casi instantánea entre sistemas distribuidos."
+        },
+        {
+          "title": "Cifrado de Flujo End-to-End",
+          "description": "Protección de datos en tránsito y en reposo con políticas de claves centralizadas."
+        },
+        {
+          "title": "Escalabilidad Elástica Automática",
+          "description": "Picos de demanda absorbidos sin intervención manual gracias a orquestación inteligente."
+        },
+        {
+          "title": "Integración Legacy Híbrida",
+          "description": "Conectores seguros entre mainframe, APIs modernas y microservicios."
+        }
+      ]
+    },
+    {
+      "id": "consultoria-it",
+      "category": "Consultoría",
+      "categoryKey": "consultoria",
+      "title": "Consultoría IT Estratégica",
+      "shortDescription": "Roadmaps tecnológicos alineados al negocio, gobernanza y optimización del gasto TI.",
+      "description": "Acompañamos a dirección y equipos técnicos en la definición de prioridades, vendor management y adopción de buenas prácticas ITIL y ágiles.",
+      "badge": "ESTRATEGIA",
+      "heroTitlePrefix": "Consultoría",
+      "heroTitleHighlight": "IT",
+      "heroTitleSuffix": " de Alto Impacto",
+      "imageVariant": "navy",
+      "capabilities": [
+        {
+          "title": "Assessment & Roadmap",
+          "description": "Diagnóstico objetivo y hoja de ruta priorizada por valor."
+        },
+        {
+          "title": "Gobernanza TI",
+          "description": "Roles, comités y KPIs para decisiones trazables."
+        },
+        {
+          "title": "Optimización de Costos",
+          "description": "Licencias, nube y contratos revisados con enfoque FinOps."
+        },
+        {
+          "title": "Change Management",
+          "description": "Planes de adopción para minimizar resistencia al cambio."
+        }
+      ]
+    },
+    {
+      "id": "big-data-ia",
+      "category": "Tecnología",
+      "categoryKey": "tecnologia",
+      "title": "Big Data & IA",
+      "shortDescription": "Plataformas de datos, modelos predictivos y MLOps para decisiones basadas en evidencia.",
+      "description": "Construimos lagos de datos, pipelines ETL/ELT y despliegue de modelos con monitorización de deriva y explicabilidad cuando el negocio lo requiere.",
+      "badge": "DATOS & IA",
+      "heroTitlePrefix": "Big Data &",
+      "heroTitleHighlight": "IA",
+      "heroTitleSuffix": " Aplicada",
+      "imageVariant": "violet",
+      "capabilities": [
+        {
+          "title": "Ingeniería de Datos",
+          "description": "Pipelines robustos y calidad de datos como producto."
+        },
+        {
+          "title": "Modelos Predictivos",
+          "description": "Desde scoring hasta visión por computador según el caso de uso."
+        },
+        {
+          "title": "MLOps",
+          "description": "CI/CD para modelos, versionado y rollback seguro."
+        },
+        {
+          "title": "Gobernanza de Datos",
+          "description": "Catálogo, linaje y cumplimiento normativo."
+        }
+      ]
+    },
+    {
+      "id": "ciberseguridad",
+      "category": "Tecnología",
+      "categoryKey": "tecnologia",
+      "title": "Ciberseguridad Corporativa",
+      "shortDescription": "Evaluación de riesgos, SOC as a service y cumplimiento para entornos regulados.",
+      "description": "Red team ligero, hardening, detección y respuesta coordinada con su equipo interno o partners.",
+      "badge": "SEGURIDAD",
+      "heroTitlePrefix": "Ciberseguridad",
+      "heroTitleHighlight": "Integral",
+      "heroTitleSuffix": "",
+      "imageVariant": "teal",
+      "capabilities": [
+        {
+          "title": "Threat Modeling",
+          "description": "Abuso de casos y superficie de ataque documentada."
+        },
+        {
+          "title": "SOC 24/7",
+          "description": "Playbooks y escalado según severidad."
+        },
+        {
+          "title": "Cumplimiento",
+          "description": "Mapeo a marcos ISO, NIST u otros aplicables."
+        },
+        {
+          "title": "Concientización",
+          "description": "Campañas medibles de phishing simulado y formación."
+        }
+      ]
+    },
+    {
+      "id": "logistica-digital",
+      "category": "Logística",
+      "categoryKey": "logistica",
+      "title": "Logística Digital",
+      "shortDescription": "Visibilidad end-to-end de la cadena de suministro con integración a TMS y WMS.",
+      "description": "Paneles unificados, alertas proactivas y escenarios what-if para interrupciones.",
+      "badge": "LOGÍSTICA",
+      "heroTitlePrefix": "Logística",
+      "heroTitleHighlight": "Digital",
+      "heroTitleSuffix": " Conectada",
+      "imageVariant": "orange",
+      "capabilities": [
+        {
+          "title": "Track & Trace",
+          "description": "Eventos en tiempo casi real desde origen a destino."
+        },
+        {
+          "title": "Integración TMS/WMS",
+          "description": "APIs y EDI según madurez del ecosistema."
+        },
+        {
+          "title": "Inventario Inteligente",
+          "description": "Forecast y políticas de reposición asistidas."
+        },
+        {
+          "title": "Sostenibilidad",
+          "description": "Métricas de huella y rutas más eficientes."
+        }
+      ]
+    },
+    {
+      "id": "energia-sostenible",
+      "category": "Energía",
+      "categoryKey": "energia",
+      "title": "Energía y Sostenibilidad",
+      "shortDescription": "Monitoreo de consumo, eficiencia energética y reporting ESG.",
+      "description": "Sensores, agregación de datos y cuadros de mando para metas de carbono y ahorro operativo.",
+      "badge": "ENERGÍA",
+      "heroTitlePrefix": "Energía",
+      "heroTitleHighlight": "Sostenible",
+      "heroTitleSuffix": "",
+      "imageVariant": "green",
+      "capabilities": [
+        {
+          "title": "Monitoreo IoT",
+          "description": "Telemetría de activos críticos y alarmas configurables."
+        },
+        {
+          "title": "Eficiencia",
+          "description": "Identificación de desperdicio y quick wins."
+        },
+        {
+          "title": "Reporting ESG",
+          "description": "Indicadores alineados a marcos reconocidos."
+        },
+        {
+          "title": "Estrategia Net Zero",
+          "description": "Hojas de ruta y hitos intermedios verificables."
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "La implementación de la optimización de flujos de KINETIC fue el punto de inflexión para nuestra operación logística global.",
+      "name": "Alejandro Vivas",
+      "role": "CTO, Global Logistics Group",
+      "initials": "AV"
+    },
+    {
+      "id": "t2",
+      "quote": "Claridad en el roadmap y ejecución impecable. El equipo técnico habla el idioma del negocio.",
+      "name": "María González",
+      "role": "CIO, Retail Norte",
+      "initials": "MG"
+    }
+  ],
+  "principles": [
+    {
+      "id": "p1",
+      "title": "Agilidad",
+      "description": "Iteraciones cortas, feedback continuo y entregas que generan valor desde el primer sprint.",
+      "tone": "orange"
+    },
+    {
+      "id": "p2",
+      "title": "Innovación",
+      "description": "Exploración disciplinada de tecnologías con pruebas de concepto medibles antes de escalar.",
+      "tone": "blue"
+    },
+    {
+      "id": "p3",
+      "title": "Resultados",
+      "description": "KPIs compartidos con el cliente; lo que no se mide no se mejora.",
+      "tone": "pink"
+    },
+    {
+      "id": "p4",
+      "title": "Transparencia",
+      "description": "Comunicación clara de riesgos, costos y dependencias en cada fase.",
+      "tone": "purple"
+    }
+  ],
+  "team": [
+    {
+      "id": "elena",
+      "name": "Elena Rivas",
+      "role": "Co-founder & CTO",
+      "initials": "ER"
+    },
+    {
+      "id": "marcos",
+      "name": "Marcos Valenzuela",
+      "role": "Head of Product Design",
+      "initials": "MV"
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia Chen",
+      "role": "Director of Marketing",
+      "initials": "SC"
+    }
+  ]
+}

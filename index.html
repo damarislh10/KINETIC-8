@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KINETIC · Innovación corporativa</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="index.html">KINETIC</a>
+        <nav class="site-nav" aria-label="Principal">
+          <a class="site-nav__link site-nav__link--active" href="index.html">Inicio</a>
+          <a class="site-nav__link" href="catalogo.html">Servicios</a>
+          <a class="site-nav__link" href="catalogo.html?filter=favorites">Favoritos</a>
+          <a class="site-nav__link" href="#contacto">Contacto</a>
+          <a class="site-nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+        <div class="site-header__actions">
+          <label class="sr-only" for="site-search">Buscar</label>
+          <input
+            id="site-search"
+            class="search-field"
+            type="search"
+            placeholder="Buscar..."
+            autocomplete="off"
+          />
+          <a class="btn btn--primary btn--pill" href="admin.html">Acceso Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero__grid">
+          <div>
+            <span class="badge-pill">Innovación corporativa</span>
+            <h1 class="hero__title">
+              Impulsamos tu <span class="text-gradient">transformación digital</span>
+            </h1>
+            <p class="hero__lead">
+              Soluciones tecnológicas de alto impacto para escalar operaciones, seguridad y
+              experiencia, con el sello de excelencia KINETIC.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary btn--lg btn--pill" href="catalogo.html">Explorar Catálogo</a>
+              <a class="btn btn--secondary btn--lg btn--pill" href="nosotros.html">Saber más</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="hero__image-wrap" role="img" aria-label="Visual tecnológico abstracto">
+              <div class="hero__float-card">
+                <div class="hero__float-label">Impacto real</div>
+                <div class="hero__float-value">Eficiencia +45%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-item__num">12k+</div>
+            <div class="stat-item__label">Proyectos</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">98%</div>
+            <div class="stat-item__label">Fidelidad</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">45%</div>
+            <div class="stat-item__label">Eficiencia</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">24/7</div>
+            <div class="stat-item__label">Soporte</div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section container" id="servicios-preview">
+        <p class="section-kicker">Nuestros servicios</p>
+        <h2 class="section-title">Excelencia tecnológica</h2>
+        <div class="grid-services" id="services-grid" aria-live="polite">
+          <!-- Tarjetas desde JSON -->
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker section-kicker--red">Testimonios</p>
+            <h2 class="section-title" style="margin-bottom: 0">Confianza en movimiento</h2>
+          </div>
+          <div class="carousel-nav" aria-hidden="true">
+            <button type="button" title="Anterior">←</button>
+            <button type="button" title="Siguiente">→</button>
+          </div>
+        </div>
+        <div class="testimonial-grid" id="testimonials-root"></div>
+      </section>
+
+      <section class="container">
+        <div class="cta-band">
+          <h2>¿Listo para el siguiente paso?</h2>
+          <button type="button" class="btn btn--primary btn--lg btn--pill" id="open-consult-modal">
+            Agendar consultoría gratuita
+          </button>
+        </div>
+      </section>
+
+      <section class="contact-section section container" id="contacto">
+        <p class="section-kicker">Contacto</p>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <div class="contact-grid">
+          <div>
+            <p style="color: var(--color-muted); max-width: 480px">
+              Completa el formulario con datos válidos. El correo se valida con formato estándar y el
+              mensaje requiere un mínimo de caracteres.
+            </p>
+          </div>
+          <div class="contact-card">
+            <h3>Formulario validado</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label class="form-label" for="c-name">Nombre</label>
+                <input class="input" id="c-name" name="name" type="text" autocomplete="name" required />
+                <span class="form-error" data-error="name"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="c-email">Correo electrónico</label>
+                <input
+                  class="input"
+                  id="c-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+                <span class="form-error" data-error="email"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="c-company">Empresa (opcional)</label>
+                <input class="input" id="c-company" name="company" type="text" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="c-msg">Mensaje</label>
+                <textarea
+                  class="input textarea"
+                  id="c-msg"
+                  name="message"
+                  required
+                  minlength="10"
+                ></textarea>
+                <span class="form-error" data-error="message"></span>
+              </div>
+              <button class="btn btn--primary btn--block" type="submit">Enviar mensaje</button>
+              <p id="contact-form-status" class="form-error" style="margin-top: 1rem; color: #2e7d32" hidden></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-overlay" id="modal-consulta" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal">
+        <button type="button" class="modal__close" id="close-modal-consulta" aria-label="Cerrar">×</button>
+        <h2 class="modal__title" id="modal-title">Agendar consultoría</h2>
+        <p class="modal__subtitle">
+          Esta acción enlaza con el mismo flujo de contacto: desplázate al formulario o complétalo aquí en la página principal.
+        </p>
+        <a class="btn btn--primary btn--block" href="#contacto">Ir al formulario de contacto</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <div class="site-footer__brand">KINETIC</div>
+          <p class="site-footer__copy">© 2026 KINETIC CORPORATE. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+        <nav class="site-footer__links" aria-label="Legal">
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+          <a href="#contacto">Soporte</a>
+          <a href="#">Cookies</a>
+        </nav>
+        <div class="site-footer__icons">
+          <button type="button" class="icon-btn" aria-label="Compartir">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="5" r="3" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="19" r="3" />
+              <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98" />
+            </svg>
+          </button>
+          <button type="button" class="icon-btn" aria-label="Red">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="2" />
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                opacity=".3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/home.js"></script>
+  </body>
+</html>
