@@ -6,11 +6,7 @@ Prototipo funcional con renderizado dinámico desde JSON
 
 Abre esta URL (el sitio debe servirse por **HTTP**, no abriendo el `.html` con doble clic):
 
-**http://127.0.0.1:3000/index.html**
-
-También puedes usar la raíz (misma página):
-
-**http://127.0.0.1:3000/**
+**[LINK APP](https://damarislh10.github.io/KINETIC-8/)**
 
 
 ## Páginas principales
