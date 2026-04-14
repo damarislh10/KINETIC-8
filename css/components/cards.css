@@ -44,6 +44,16 @@
   background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
 }
 
+.service-card__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
 .service-card__pattern {
   position: absolute;
   inset: 0;
