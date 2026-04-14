@@ -27,6 +27,7 @@ export function buildServiceCardHtml(service, options = {}) {
   return `
     <article class="service-card" data-service-id="${service.id}">
       <div class="service-card__media ${mediaClass(service.imageVariant)}">
+        ${service.image ? `<img class="service-card__img" src="${service.image}" alt="${escapeHtml(service.title)}" loading="lazy" />` : ""}
         <div class="service-card__pattern" aria-hidden="true"></div>
         <span class="service-card__badge">${escapeHtml(service.category)}</span>
         <button type="button" class="${favClass}" data-fav-toggle="${service.id}" aria-label="${fav ? "Quitar de favoritos" : "Añadir a favoritos"}" aria-pressed="${fav}">${HEART_SVG}</button>

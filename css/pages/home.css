@@ -70,11 +70,22 @@
   position: relative;
 }
 
+.hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
 .hero__image-wrap::after {
   content: "";
   position: absolute;
   inset: 0;
   background: radial-gradient(circle at 70% 30%, rgba(0, 229, 255, 0.35), transparent 50%);
+  z-index: 1;
 }
 
 .hero__float-card {
@@ -86,6 +97,7 @@
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
   max-width: 200px;
+  z-index: 2;
 }
 
 .hero__float-label {

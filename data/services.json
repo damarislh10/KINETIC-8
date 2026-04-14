@@ -2,6 +2,7 @@
   "services": [
     {
       "id": "opt-flujos",
+      "image": "data/images/services/Optimizacion de flujos.png",
       "category": "Consultoría",
       "categoryKey": "consultoria",
       "title": "Optimización de Flujos",
@@ -15,152 +16,125 @@
       "capabilities": [
         {
           "title": "Latencia de Red Ultra-Baja",
-          "description": "Topologías y CDN para respuesta casi instantánea entre sistemas distribuidos."
+          "description": "Infraestructura optimizada para tiempos de respuesta inferiores a 10ms en aplicaciones de misión crítica."
         },
         {
           "title": "Cifrado de Flujo End-to-End",
-          "description": "Protección de datos en tránsito y en reposo con políticas de claves centralizadas."
+          "description": "Seguridad de grado militar integrada en cada capa del transporte de datos dinámicos."
         },
         {
           "title": "Escalabilidad Elástica Automática",
-          "description": "Picos de demanda absorbidos sin intervención manual gracias a orquestación inteligente."
+          "description": "Capacidad de expansión instantánea basada en picos de demanda analizados en tiempo real."
         },
         {
           "title": "Integración Legacy Híbrida",
-          "description": "Conectores seguros entre mainframe, APIs modernas y microservicios."
+          "description": "Conexión fluida entre sistemas heredados y arquitecturas modernas de microservicios."
         }
       ]
     },
     {
-      "id": "consultoria-it",
-      "category": "Consultoría",
-      "categoryKey": "consultoria",
-      "title": "Consultoría IT Estratégica",
-      "shortDescription": "Roadmaps tecnológicos alineados al negocio, gobernanza y optimización del gasto TI.",
-      "description": "Acompañamos a dirección y equipos técnicos en la definición de prioridades, vendor management y adopción de buenas prácticas ITIL y ágiles.",
-      "badge": "ESTRATEGIA",
-      "heroTitlePrefix": "Consultoría",
-      "heroTitleHighlight": "IT",
-      "heroTitleSuffix": " de Alto Impacto",
+      "id": "opt-infraestructura",
+      "image": "data/images/services/optimizacion de infraestructura.png",
+      "category": "Tecnología",
+      "categoryKey": "tecnologia",
+      "title": "Optimización de Infraestructura",
+      "shortDescription": "Infraestructura Cloud escalable, eficiente y segura. Maximizamos el rendimiento reduciendo la complejidad operativa.",
+      "description": "Transformamos su entorno digital con soluciones de nube escalables, eficientes y seguras. Maximizamos el rendimiento reduciendo la complejidad operativa.",
+      "badge": "SERVICIOS EMPRESARIALES",
+      "heroTitlePrefix": "Optimización de",
+      "heroTitleHighlight": "Infraestructura",
+      "heroTitleSuffix": " Cloud",
       "imageVariant": "navy",
       "capabilities": [
         {
-          "title": "Assessment & Roadmap",
-          "description": "Diagnóstico objetivo y hoja de ruta priorizada por valor."
+          "title": "Escalabilidad Ilimitada",
+          "description": "Arquitecturas diseñadas para crecer orgánicamente según la demanda, sin interrupciones ni degradación del servicio."
         },
         {
-          "title": "Gobernanza TI",
-          "description": "Roles, comités y KPIs para decisiones trazables."
+          "title": "Seguridad de Grado Bancario",
+          "description": "Implementación de protocolos Zero Trust y encriptación de extremo a extremo para proteger sus activos más valiosos."
         },
         {
-          "title": "Optimización de Costos",
-          "description": "Licencias, nube y contratos revisados con enfoque FinOps."
+          "title": "Reducción de Costos",
+          "description": "Optimización de facturación mediante instancias reservadas y eliminación de recursos ociosos."
         },
         {
-          "title": "Change Management",
-          "description": "Planes de adopción para minimizar resistencia al cambio."
+          "title": "Certificación AWS & Azure",
+          "description": "Arquitectos certificados liderando cada despliegue en las principales plataformas cloud."
         }
       ]
     },
     {
-      "id": "big-data-ia",
-      "category": "Tecnología",
-      "categoryKey": "tecnologia",
-      "title": "Big Data & IA",
-      "shortDescription": "Plataformas de datos, modelos predictivos y MLOps para decisiones basadas en evidencia.",
-      "description": "Construimos lagos de datos, pipelines ETL/ELT y despliegue de modelos con monitorización de deriva y explicabilidad cuando el negocio lo requiere.",
-      "badge": "DATOS & IA",
-      "heroTitlePrefix": "Big Data &",
-      "heroTitleHighlight": "IA",
-      "heroTitleSuffix": " Aplicada",
-      "imageVariant": "violet",
-      "capabilities": [
-        {
-          "title": "Ingeniería de Datos",
-          "description": "Pipelines robustos y calidad de datos como producto."
-        },
-        {
-          "title": "Modelos Predictivos",
-          "description": "Desde scoring hasta visión por computador según el caso de uso."
-        },
-        {
-          "title": "MLOps",
-          "description": "CI/CD para modelos, versionado y rollback seguro."
-        },
-        {
-          "title": "Gobernanza de Datos",
-          "description": "Catálogo, linaje y cumplimiento normativo."
-        }
-      ]
-    },
-    {
-      "id": "ciberseguridad",
-      "category": "Tecnología",
-      "categoryKey": "tecnologia",
-      "title": "Ciberseguridad Corporativa",
-      "shortDescription": "Evaluación de riesgos, SOC as a service y cumplimiento para entornos regulados.",
-      "description": "Red team ligero, hardening, detección y respuesta coordinada con su equipo interno o partners.",
-      "badge": "SEGURIDAD",
-      "heroTitlePrefix": "Ciberseguridad",
-      "heroTitleHighlight": "Integral",
-      "heroTitleSuffix": "",
+      "id": "liderazgo-corporativo",
+      "image": "data/images/services/liderazgo operativo.png",
+      "category": "Consultoría",
+      "categoryKey": "consultoria",
+      "title": "Liderazgo Corporativo",
+      "shortDescription": "Programas de formación intensiva para cuadros directivos enfocados en transformación organizacional.",
+      "description": "Programa diseñado para directivos centrados en la toma de decisiones ágiles y estratégicas. Nuestra metodología impulsa la transformación organizacional a través de un liderazgo humano y visionario.",
+      "badge": "PROGRAMA EJECUTIVO",
+      "heroTitlePrefix": "Kinetic Leadership:",
+      "heroTitleHighlight": "Capacitación",
+      "heroTitleSuffix": " de Alto Nivel",
       "imageVariant": "teal",
       "capabilities": [
         {
-          "title": "Threat Modeling",
-          "description": "Abuso de casos y superficie de ataque documentada."
+          "title": "Metodología Agile",
+          "description": "Implementamos marcos de trabajo flexibles que permiten a los líderes responder con precisión a entornos volátiles y complejos."
         },
         {
-          "title": "SOC 24/7",
-          "description": "Playbooks y escalado según severidad."
+          "title": "Toma de Decisiones",
+          "description": "Modelos analíticos y heurísticos avanzados para minimizar sesgos y maximizar el impacto estratégico."
         },
         {
-          "title": "Cumplimiento",
-          "description": "Mapeo a marcos ISO, NIST u otros aplicables."
+          "title": "Equipos de Alto Rendimiento",
+          "description": "Técnicas de gestión basadas en la confianza y la responsabilidad extrema para escalar la productividad."
         },
         {
-          "title": "Concientización",
-          "description": "Campañas medibles de phishing simulado y formación."
+          "title": "Coaching Ejecutivo",
+          "description": "Sesiones personalizadas 1-a-1 con consultores senior para abordar desafíos específicos del rol directivo."
         }
       ]
     },
     {
-      "id": "logistica-digital",
+      "id": "cadena-suministro",
+      "image": "data/images/services/cadena suministro 4.0.png",
       "category": "Logística",
       "categoryKey": "logistica",
-      "title": "Logística Digital",
-      "shortDescription": "Visibilidad end-to-end de la cadena de suministro con integración a TMS y WMS.",
-      "description": "Paneles unificados, alertas proactivas y escenarios what-if para interrupciones.",
-      "badge": "LOGÍSTICA",
-      "heroTitlePrefix": "Logística",
-      "heroTitleHighlight": "Digital",
-      "heroTitleSuffix": " Conectada",
+      "title": "Cadena de Suministro 4.0",
+      "shortDescription": "Implementación de IA para la predicción de demanda y gestión logística de próxima generación.",
+      "description": "Optimización en tiempo real con Inteligencia Artificial y IoT. Transformamos la complejidad logística en una ventaja competitiva de alta velocidad.",
+      "badge": "INTELIGENCIA LOGÍSTICA",
+      "heroTitlePrefix": "Cadena de Suministros 4.0:",
+      "heroTitleHighlight": "Logística",
+      "heroTitleSuffix": " de Próxima Generación",
       "imageVariant": "orange",
       "capabilities": [
         {
-          "title": "Track & Trace",
-          "description": "Eventos en tiempo casi real desde origen a destino."
+          "title": "Integración IoT",
+          "description": "Sensores inteligentes en cada punto de contacto. Monitoreo de temperatura, vibración y geolocalización en tiempo real."
         },
         {
-          "title": "Integración TMS/WMS",
-          "description": "APIs y EDI según madurez del ecosistema."
+          "title": "Análisis Predictivo",
+          "description": "Algoritmos de IA que analizan patrones históricos y variables externas para prever fluctuaciones en la demanda."
         },
         {
-          "title": "Inventario Inteligente",
-          "description": "Forecast y políticas de reposición asistidas."
+          "title": "Automatización Robótica",
+          "description": "Implementación de flotas de AGV (Vehículos de Guiado Automático) que optimizan el picking y packing."
         },
         {
-          "title": "Sostenibilidad",
-          "description": "Métricas de huella y rutas más eficientes."
+          "title": "Visibilidad End-to-End",
+          "description": "Paneles unificados con alertas proactivas y escenarios what-if para interrupciones en la cadena."
         }
       ]
     },
     {
       "id": "energia-sostenible",
+      "image": "data/images/services/energia sostenible.png",
       "category": "Energía",
       "categoryKey": "energia",
-      "title": "Energía y Sostenibilidad",
-      "shortDescription": "Monitoreo de consumo, eficiencia energética y reporting ESG.",
+      "title": "Energía Sostenible",
+      "shortDescription": "Monitoreo de consumo, eficiencia energética y reporting ESG para metas de carbono.",
       "description": "Sensores, agregación de datos y cuadros de mando para metas de carbono y ahorro operativo.",
       "badge": "ENERGÍA",
       "heroTitlePrefix": "Energía",
@@ -173,16 +147,80 @@
           "description": "Telemetría de activos críticos y alarmas configurables."
         },
         {
-          "title": "Eficiencia",
-          "description": "Identificación de desperdicio y quick wins."
+          "title": "Eficiencia Energética",
+          "description": "Identificación de desperdicio y quick wins para ahorro operativo."
         },
         {
           "title": "Reporting ESG",
-          "description": "Indicadores alineados a marcos reconocidos."
+          "description": "Indicadores alineados a marcos reconocidos internacionales."
         },
         {
           "title": "Estrategia Net Zero",
-          "description": "Hojas de ruta y hitos intermedios verificables."
+          "description": "Hojas de ruta y hitos intermedios verificables hacia cero emisiones."
+        }
+      ]
+    },
+    {
+      "id": "inteligencia-predictiva",
+      "image": "data/images/services/inteligencia predictiva.png",
+      "category": "Tecnología",
+      "categoryKey": "tecnologia",
+      "title": "Inteligencia Predictiva",
+      "shortDescription": "Decisiones basadas en datos con modelos predictivos y plataformas de MLOps empresarial.",
+      "description": "Construimos lagos de datos, pipelines ETL/ELT y despliegue de modelos con monitorización de deriva y explicabilidad cuando el negocio lo requiere.",
+      "badge": "DATOS & IA",
+      "heroTitlePrefix": "Inteligencia",
+      "heroTitleHighlight": "Predictiva",
+      "heroTitleSuffix": " Empresarial",
+      "imageVariant": "violet",
+      "capabilities": [
+        {
+          "title": "Ingeniería de Datos",
+          "description": "Pipelines robustos y calidad de datos como producto central."
+        },
+        {
+          "title": "Modelos Predictivos",
+          "description": "Desde scoring hasta visión por computador según el caso de uso."
+        },
+        {
+          "title": "MLOps",
+          "description": "CI/CD para modelos, versionado y rollback seguro en producción."
+        },
+        {
+          "title": "Gobernanza de Datos",
+          "description": "Catálogo, linaje y cumplimiento normativo automatizado."
+        }
+      ]
+    },
+    {
+      "id": "desarrollo-software",
+      "image": "data/images/services/desarrollo de software custom.png",
+      "category": "Tecnología",
+      "categoryKey": "tecnologia",
+      "title": "Desarrollo de Software Custom",
+      "shortDescription": "Creación de plataformas escalables para la gestión de procesos críticos del ecosistema corporativo.",
+      "description": "Construimos herramientas digitales de alta precisión diseñadas específicamente para los retos críticos de su ecosistema corporativo.",
+      "badge": "INNOVACIÓN DIGITAL",
+      "heroTitlePrefix": "Desarrollo de",
+      "heroTitleHighlight": "Software Custom",
+      "heroTitleSuffix": "",
+      "imageVariant": "cyan",
+      "capabilities": [
+        {
+          "title": "Arquitectura Cloud-Native",
+          "description": "Implementamos microservicios en AWS y Azure para garantizar disponibilidad del 99.9% y despliegue continuo automatizado."
+        },
+        {
+          "title": "Seguridad de Grado Bancario",
+          "description": "Protocolos de autenticación biométrica y encriptación de punto a punto."
+        },
+        {
+          "title": "Integración con APIs",
+          "description": "Conexión total con CRM, ERP y pasarelas de pago existentes."
+        },
+        {
+          "title": "Desarrollo Agile",
+          "description": "Entregables funcionales cada 2 semanas con feedback en tiempo real."
         }
       ]
     }

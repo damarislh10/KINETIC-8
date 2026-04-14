@@ -41,6 +41,13 @@ function render(service) {
     visual.className = detailVisualClasses(service.imageVariant);
   }
 
+  const visualImg = document.getElementById("detail-visual-img");
+  if (visualImg && service.image) {
+    visualImg.src = service.image;
+    visualImg.alt = service.title;
+    visualImg.hidden = false;
+  }
+
   const overview = document.getElementById("detail-overview");
   if (overview) overview.textContent = service.description;
 

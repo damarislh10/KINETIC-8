@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Servicios · KINETIC Admin</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="index.html">KINETIC</a>
+        <nav class="site-nav" aria-label="Principal">
+          <a class="site-nav__link" href="index.html">Inicio</a>
+          <a class="site-nav__link" href="catalogo.html">Servicios</a>
+          <a class="site-nav__link" href="catalogo.html?filter=favorites">Favoritos</a>
+          <a class="site-nav__link" href="index.html#contacto">Contacto</a>
+          <a class="site-nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+        <div class="site-header__actions">
+          <input class="search-field" type="search" placeholder="Buscar..." aria-label="Buscar" />
+          <a class="btn btn--primary btn--pill" href="admin.html">Acceso Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="panel-header">
+        <div>
+          <p class="section-kicker">Operaciones corporativas</p>
+          <h1 class="section-title" style="margin-bottom: 0">Gestión de Servicios</h1>
+        </div>
+        <div class="panel-live-badge">
+          <span class="panel-live-dot"></span> Live Update: ON
+        </div>
+      </div>
+
+      <div class="panel-grid">
+        <!-- Formulario nuevo servicio -->
+        <aside class="panel-form-card">
+          <h2 class="panel-form-card__title">Nuevo Servicio</h2>
+          <form id="panel-add-form" novalidate>
+            <div class="form-group">
+              <label class="form-label form-label--upper" for="p-title">Título del servicio</label>
+              <input
+                class="input"
+                id="p-title"
+                name="title"
+                type="text"
+                placeholder="Ej: Consultoría Energética"
+                required
+              />
+              <span class="form-error" data-error="title"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label form-label--upper" for="p-desc">Descripción</label>
+              <textarea
+                class="input textarea"
+                id="p-desc"
+                name="description"
+                placeholder="Detalles técnicos del servicio..."
+                required
+                minlength="10"
+              ></textarea>
+              <span class="form-error" data-error="description"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label form-label--upper" for="p-img">URL de imagen (preview)</label>
+              <input
+                class="input"
+                id="p-img"
+                name="image"
+                type="url"
+                placeholder="https://images.unsplash.com/..."
+              />
+            </div>
+            <button type="submit" class="btn btn--primary btn--block btn--lg">
+              Publicar Servicio
+            </button>
+          </form>
+        </aside>
+
+        <!-- Tabla de servicios -->
+        <div class="panel-table-card">
+          <div class="panel-table-header">
+            <h2 class="panel-table-card__title">Servicios Activos</h2>
+            <span class="panel-total-badge" id="panel-total">0 Total</span>
+          </div>
+          <div class="panel-table-wrap">
+            <table class="panel-table">
+              <thead>
+                <tr>
+                  <th>Vista</th>
+                  <th>Nombre del servicio</th>
+                  <th>Categoría</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="panel-table-body">
+                <!-- Filas dinámicas -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <div class="site-footer__brand">KINETIC</div>
+          <p class="site-footer__copy">© 2026 KINETIC CORPORATE. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+        <nav class="site-footer__links" aria-label="Legal">
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+          <a href="index.html#contacto">Soporte</a>
+          <a href="#">Cookies</a>
+        </nav>
+        <div class="site-footer__icons">
+          <button type="button" class="icon-btn" aria-label="Compartir">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <circle cx="18" cy="5" r="3" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="19" r="3" />
+              <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98" />
+            </svg>
+          </button>
+          <button type="button" class="icon-btn" aria-label="Red">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <circle cx="12" cy="12" r="2" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/panel.js"></script>
+  </body>
+</html>
